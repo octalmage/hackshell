@@ -3,6 +3,8 @@ var fs = require("fs");
 
 var win = gui.Window.get();
 
+win.focus();
+
 //Code to type.
 var code = fs.readFileSync("code", "utf8");
 
