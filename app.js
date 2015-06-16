@@ -70,7 +70,8 @@ function updateCode()
 
     $("#console").html(type + caret);
 
-    window.scrollBy(0, 50); 
+    //Scroll to the bottom.
+    window.scrollTo(0,document.body.scrollHeight);
 }
 
 //Make the caret blink.
