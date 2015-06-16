@@ -44,7 +44,7 @@ $(function()
         {
             index = 0;
         }
-        else if (e.ctrlKey === true || e.altKey === true)
+        else if (e.ctrlKey === true || e.altKey === true || e.shiftKey === true)
         {
             //Do nothing!
         }
