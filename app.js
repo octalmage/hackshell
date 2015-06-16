@@ -44,6 +44,10 @@ $(function()
         {
             index = 0;
         }
+        else if (e.ctrlKey === true || e.altKey === true)
+        {
+            //Do nothing!
+        }
     	else
     	{
     		index = index + speed;
