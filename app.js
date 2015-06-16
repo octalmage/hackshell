@@ -40,6 +40,10 @@ $(function()
     	{
     		index = index - speed;
     	}
+        else if (e.ctrlKey === true && e.keyCode === 67) //Control+C, clear code.
+        {
+            index = 0;
+        }
     	else
     	{
     		index = index + speed;
