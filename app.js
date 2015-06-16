@@ -35,9 +35,8 @@ $(function()
     {
     	//Stop the blinking if we're typing.
     	clearInterval(blinkTimer);
-
-    	//If backspace, delete code, else, write code.
-    	if (e.keyCode === 8)
+        
+    	if (e.keyCode === 8) //If backspace, delete code.
     	{
     		index = index - speed;
     	}
