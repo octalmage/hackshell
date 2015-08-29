@@ -1,5 +1,6 @@
 {
 	"name": "hackshell",
+	"version": "0.0.1", 
 	"main": "index.html",
 	"window": {
     "title": "hackshell",
